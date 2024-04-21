@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+/* edición 2 secciones */
+.secciones_total {
+    display: flex;
+}
+
+/* edición seccion principal completa */
+.seccion_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 2px 2px 4px rgba(49, 49, 49, 0.473);
+}
+
+/* edición elementos seeccion principal*/
+h3 {
+    font-size: 58px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1b1f21;
+}
+
+.bajada {
+    width: 45%;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+/* edición seccion contacto */
+/* edición chat invidual*/
+.todos_chats {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 32px;
+}
+
+/* edición elementos seccion contacto*/
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1b1f21;
+}
+
+.chatimage {
+    border-radius:150px;
+    width: 56px;
+    height: 56px;
+    border: 3px solid #E8EBE4;   
+}
+
+.mensaje {
+    padding-left: 12px;
+}
+
+/* edición button */
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #A491d2; 
+    color: white; 
+    padding: 20px; 
+    font-size: 20px;
+    margin: 48px;
+}
+
+/* edición user info */
+.imageuser {
+    border-radius:150px;
+    width: 48px;
+    height: 48px;
+    border: 3px solid #E8EBE4;   
+}
+
+.state {
+    color: #bec1bb;
+    font-size: 14px;
+    line-height: normal;
+    margin-top: auto;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 20px;
+}
+
+.usersection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/* edición tamaño seccion izquierda */
+.seccion_contacto {
+    width: 20%;
+}
+
+
+
+
